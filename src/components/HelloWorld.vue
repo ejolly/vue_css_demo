@@ -1,32 +1,19 @@
+<!-- Simple componenet that has a msg property that can be filled in dynamically by the main app or other components that use this component.  -->
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
-    <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
-    </p>
-    <h3>Installed CLI Plugins</h3>
-    <ul>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank" rel="noopener">eslint</a></li>
-    </ul>
-    <h3>Essential Links</h3>
-    <ul>
-      <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
-      <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>
-    </ul>
-    <h3>Ecosystem</h3>
-    <ul>
-      <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>
-      <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a></li>
-      <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>
-      <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
-    </ul>
+    <h1>Hello World</h1>
+    <p><strong>{{ msg }}</strong></p>
+      <p>
+        This app demos css flexbox and grid. Navigate to the relevant pages using the links above. Also be sure to check out the comments in the source!
+      </p>
+      <p>
+        Flexbox and Grid are nice simple alternatives to using a framework like Bootstrap or Bulma in order to arrange HTML elements with dynamic resizing and placement.
+      </p>
+      <p>
+        This page doesn't use either or any special formatting! Resize it to see how things are not dynamic and get cutoff.
+      </p>
+      <img src="https://i1.wp.com/tasmemon.com/wp-content/uploads/2017/10/grid-vs-flexbox.png?resize=800%2C354" alt="flexboxvsgrid" />
+
   </div>
 </template>
 
@@ -41,6 +28,12 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+h1 {
+  text-align: center;
+}
+p {
+  text-align: center;
+}
 h3 {
   margin: 40px 0 0;
 }
@@ -54,5 +47,12 @@ li {
 }
 a {
   color: #42b983;
+}
+img {
+  /* These center an image and adding a little margin to the top  */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2.5rem;
 }
 </style>
