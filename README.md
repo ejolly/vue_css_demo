@@ -5,7 +5,7 @@ Simple app that demos CSS flexbox and CSS Grids. It's also a Vuejs app so it's a
 The examples here are basically following (with some modifications) the examples posted by [Traversy Media](https://www.traversymedia.com/), specifically following his [flexbox tutorial](https://www.youtube.com/watch?v=JJSoEo8JSnc) and [grid tutorial](https://www.youtube.com/watch?v=jV8B24rSN5o).
 
 ## Live Demo  
-This app is **[Live](https://gifted-mayer-f7b5c0.netlify.com)** on [Netlify](https://www.netlify.com/). It auto-builds from this repository.
+This app is **[Live](https://quirky-meitner-62d849.netlify.com/)** on [Netlify](https://www.netlify.com/). It auto-builds from this repository.
 
 
 ## Project setup
